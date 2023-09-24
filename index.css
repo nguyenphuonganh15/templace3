@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.article {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+/* ///////////////////////header //////////////////////////*/
+.header {
+  width: 1024px;
+  height: 96px;
+  margin: auto;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+.header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+.header .text-logo {
+  margin-left: 30px;
+  font-weight: 700;
+  font-family: "Inclusive Sans", sans-serif;
+}
+.header ul li a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+.header button {
+  width: 114px;
+  height: 45px;
+  background-color: black;
+  margin-right: 32px;
+  border: 1px solid black;
+  border-radius: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #ffff;
+}
+/* //////////////////////container //////////////////////*/
+@media (min-width: 320px) and (max-width: 767.98px) {
+    body {
+        color: yellow;
+    }
+}
+.container1 {
+  width: 960px;
+  height: 349px;
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 32px;
+}
+.text1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.t1 {
+  width: 630px;
+  height: 122px;
+  margin-top: 12px;
+}
+t1 h1 {
+  font-family: "Work Sans", sans-serif;
+}
+.t2 {
+  width: 630px;
+  height: 58px;
+  margin-top: 24px;
+  color: black;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 300;
+  word-wrap: break-word;
+}
+.t2 p {
+  font-family: "Roboto", sans-serif;
+}
+.t3 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.t3 button {
+  width: 165px;
+  height: 45px;
+  background-color: #ffcf23;
+  color: rgba(0, 0, 0, 0.84);
+  font-size: 16px;
+  font-weight: 500;
+  word-wrap: break-word;
+  border: 1px solid #ffcf23;
+  border-radius: 30px;
+}
+.t3 p {
+  margin-left: 20px;
+  font-family: "Work Sans", sans-serif;
+}
+/*/////////////////// image ///////////////////*/
+.images {
+  width: 960px;
+  height: 428px;
+  margin: auto;
+}
+/*/ ///////////////////// banner/////////////// */
+.banner {
+  width: 1024px;
+  height: 910px;
+  background-color: rgb(2, 29, 48);
+  margin: auto;
+}
+.banner .img {
+  width: 960px;
+  height: 550px;
+  margin: auto;
+}
+.banner .img img {
+  margin-top: 32px;
+}
+/*  */
+.banner .text2 {
+  width: 960px;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  color: #ffff;
+  margin-top: 64px;
+  align-items: flex-start;
+}
+.text2 .t3 {
+  width: 415px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 64px;
+}
+.text2 .t3 p {
+  margin-left: 1px;
+  margin-top: 16px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  height: 120px;
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.banner .text2 .t3 h4 {
+  width: 100%;
+  color: white;
+  font-size: 24px;
+  font-family: Inter;
+  font-weight: 900;
+  line-height: 32px;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: flex-start;
+}
+.banner .text2 .t4 {
+  margin-left: 129px;
+  margin-top: 64px;
+}
+.banner .text2 .t4 ul {
+  display: grid;
+  gap: 10px;
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+/* user */
+.user {
+  width: 1024px;
+  height: 557px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  gap: 30px;
+}
+.user .user1 {
+  width: 273px;
+  height: 328px;
+  background-color: #f3f3f3;
+  padding: 20px;
+}
+.user .user1 .user_img {
+  margin-top: 56px;
+}
+
+/* ////////////dot////////// */
+.dot {
+  width: 84px;
+  height: 20px;
+  margin: auto;
+  margin-top: 65px;
+  margin-bottom: 48px;
+}
+.dot button {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+}
+.dot button:nth-child(1) {
+  background-color: #f3f3f3;
+  border: none;
+}
+.dot button:nth-child(3) {
+  background-color: #f3f3f3;
+  border: none;
+}
+/* version */
+.version {
+  width: 1024px;
+  height: 528px;
+  position: relative;
+}
+.version img {
+  width: 1024px;
+  height: 528px;
+}
+.version .wrap-version {
+  width: 600px;
+  height: 336px;
+  /* background-color: pink; */
+  position: absolute;
+  top: 192px;
+  left: 212px;
+  text-align: center;
+}
+.version .wrap-version h6 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.1px;
+  font-family: "Work Sans", sans-serif;
+}
+.version .wrap-version h2 {
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px; /* 120% */
+  letter-spacing: -0.5px;
+  margin-top: 12px;
+  font-family: "Work Sans", sans-serif;
+}
+.version .wrap-version button {
+  width: 181px;
+  height: 24px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  border: none;
+  border-radius: 24px;
+  background-color: white;
+  color: black;
+  margin-top: 40px;
+}
+/* footer */
+.footer {
+  width: 1024px;
+  height: 219px;
+  background-color: #000;
+  color: white;
+  padding: 45px 32px;
+  display: flex;
+  flex-direction: column;
+}
+.a {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.footer_all {
+  display: flex;
+  justify-content: space-between;
+}
+.a h4 {
+  margin-bottom: 10px;
+  font-family: 'Inclusive Sans', sans-serif;
+}
+.a p {
+  font-size: 0.8rem;
+  font-family: 'Roboto', sans-serif;
+}
+.Subscribe {
+  width: 18%;
+}
+.Subscribe button {
+  height: 30px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b1919;
+  color: white;
+  border: none;
+  margin-bottom: 10px;
+}
+.Subscribe button p {
+  margin-left: 10px;
+}
+.Subscribe button i {
+  margin-right: 10px;
+}
+/* .footer_all {
+  width: 75%;
+  height: 100%;
+  display: flex;
+}
+.footer_second {
+  width: 240px;
+  height: auto;
+  background-color: aqua;
+}
+
+.footer_third {
+  width: 240px;
+  height: auto;
+  background-color: #ffcf23;
+}
+
+.Subscribe {
+  width: 240px;
+  height: auto;
+  background-color: aqua;
+} */
